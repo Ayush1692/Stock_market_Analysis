@@ -4,11 +4,14 @@ Stock is something a person invest into and gains a share or own that company.
 Some companies provide dividends but in stock there is no gaurantee of return.
 Stocks of 4 companies MSFT, INTC, AAPL and GOOGL have been analysed.
 The source of the data is Yahoo finance.
-These are the steps which are taken in order to carry the analysis.
+Find below the steps taken in order to carry the analysis.
 
-Resampled the data Quarterly and weekly
-Analyzed open and close differences and percent change in adjusted close values for each stock to compare them
-Computed variance for volatility, used rolling means (window size 42 and 252) for trends and seasonality, plotted all cases
+Resampled the data Quarterly and weekly.
+
+Analyzed open and close differences and percent change in adjusted close values for each stock to compare them.
+
+Computed variance for volatility, used rolling means (window size 42 and 252) for trends and seasonality, plotted all cases.
+
 Packages- Pandas, NumPy, Matplotlib, Seaborn
 
 Resampling (Quarterly) doesn't give good idea of which stock is doing better thats why  concept of moving averages is used.
