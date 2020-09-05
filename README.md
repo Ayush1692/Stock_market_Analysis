@@ -11,9 +11,7 @@ Analyzed open and close differences and percent change in adjusted close values 
 Computed variance for volatility, used rolling means (window size 42 and 252) for trends and seasonality, plotted all cases
 Packages- Pandas, NumPy, Matplotlib, Seaborn
 
-Resampling (Quarterly)
-
-doesn't give good idea of which stock is doing better thats why  concept of moving averages is used.
+Resampling (Quarterly) doesn't give good idea of which stock is doing better thats why  concept of moving averages is used.
 
 The concept of moving window is to slide a window through the data to see long term fluctuations in data and ignore short term fluctuations.
 Volatality of the stock is computed.
